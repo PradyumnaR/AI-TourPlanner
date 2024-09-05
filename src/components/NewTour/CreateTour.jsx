@@ -13,19 +13,22 @@ function CreateTour({ onSubmit, tour }) {
         <div className='join w-full'>
           <input
             type='text'
-            className='input input-bordered join-item w-full'
+            className='input input-bordered join-item w-full border-black'
             placeholder='Enter city name'
             name='city'
             required
           />
           <input
             type='text'
-            className='input input-bordered join-item w-full'
+            className='input input-bordered join-item w-full border-black'
             placeholder='Enter country name'
             name='country'
             required
           />
-          <button type='submit' className='btn btn-primary join-item uppercase'>
+          <button
+            type='submit'
+            className='btn join-item bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 uppercase'
+          >
             submit
           </button>
         </div>

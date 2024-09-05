@@ -75,13 +75,13 @@ function Chat() {
           <input
             type='text'
             placeholder='Message GeniusGPT'
-            className='input input-bordered join-item w-full'
+            className='input input-bordered join-item w-full border-black'
             value={text}
             required
             onChange={(e) => setText(e.target.value)}
           />
           <button
-            className='btn btn-primary join-item'
+            className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 uppercas join-item'
             type='submit'
             disabled={isPending}
           >

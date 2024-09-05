@@ -18,14 +18,14 @@ function Tour() {
         <div className='join w-full'>
           <input
             type='text'
-            placeholder='enter city or country here...'
-            className='input input-bordered join-item w-full'
+            placeholder='Enter city or country here...'
+            className='input input-bordered join-item w-full border-black'
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             required
           />
           <button
-            className='btn btn-primary join-item uppercase'
+            className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase'
             type='button'
             disabled={isPending}
             onClick={() => setSearchTerm("")}

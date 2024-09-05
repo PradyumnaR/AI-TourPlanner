@@ -8,7 +8,7 @@ export function MapPreviewProvider({ tour, children }) {
   console.log(tour);
 
   if (!tour) {
-    return <>Please select tour form above dropdown for preview</>;
+    return;
   }
 
   return (

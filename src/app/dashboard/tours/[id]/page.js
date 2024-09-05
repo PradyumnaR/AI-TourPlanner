@@ -20,7 +20,7 @@ async function SingleTourPage({ params }) {
     <div>
       <Link
         href='/dashboard/tours'
-        className='btn btn-secondary mb-12 uppercase'
+        className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase mb-12'
       >
         back to tours
       </Link>

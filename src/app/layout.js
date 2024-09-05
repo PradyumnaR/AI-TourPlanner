@@ -14,9 +14,9 @@ import ClientThemeWrapper from "@/components/ThemeWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AI-TripPlanner",
+  title: "AI-TourPlanner",
   description:
-    "AI-TripPlanner: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation and more!",
+    "AI-TourPlanner: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation and more!",
 };
 
 export default function RootLayout({ children }) {
