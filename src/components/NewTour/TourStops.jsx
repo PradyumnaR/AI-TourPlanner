@@ -65,7 +65,7 @@ function TourStops({ tour }) {
         <form action={handleCreateTour}>
           <button
             type='submit'
-            className='btn btn-primary join-item uppercase'
+            className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase'
             disabled={selectedStops.length === 0 ? true : false}
           >
             Create

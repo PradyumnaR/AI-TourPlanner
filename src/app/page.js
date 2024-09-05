@@ -10,7 +10,10 @@ function HomePage() {
             Plan your tour using AI. Powered by OpenAI, it enhances your travel
             experience and much more!!
           </p>
-          <Link href='/dashboard' className='btn btn-secondary uppercase'>
+          <Link
+            href='/dashboard'
+            className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase'
+          >
             Lets get started <span className='text-lg'>&#128640;</span>
           </Link>
         </div>
