@@ -81,7 +81,7 @@ function Chat() {
             onChange={(e) => setText(e.target.value)}
           />
           <button
-            className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 uppercas join-item'
+            className='btn bg-transparent border-black  hover:border-black hover:bg-black hover:bg-opacity-5 uppercas join-item active:text-white active:bg-black'
             type='submit'
             disabled={isPending}
           >

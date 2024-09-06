@@ -26,7 +26,7 @@ function ToursDropdown({ onClickItem }) {
       </div>
       <details className='dropdown mb-5'>
         <summary
-          className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 uppercase'
+          className='btn bg-transparent border-black  hover:border-black hover:bg-black hover:bg-opacity-5 uppercase active:text-white active:bg-black'
           onClick={handleOnClickDropdown}
         >
           Select tour

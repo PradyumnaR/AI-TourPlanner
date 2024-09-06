@@ -5,7 +5,7 @@ function TourCard({ tour }) {
   return (
     <Link
       href={`/dashboard/tours/${id}`}
-      className='card card-compact btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 capitalize'
+      className='card card-compact btn bg-transparent border-black  hover:border-black hover:bg-black hover:bg-opacity-5 capitalize active:text-white active:bg-black'
     >
       <div className='card-body items-center text-center justify-center'>
         <h2 className='card-title text-center'>

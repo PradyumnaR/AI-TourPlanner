@@ -25,7 +25,7 @@ function Tour() {
             required
           />
           <button
-            className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase'
+            className='btn bg-transparent border-black  hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase active:text-white active:bg-black'
             type='button'
             disabled={isPending}
             onClick={() => setSearchTerm("")}

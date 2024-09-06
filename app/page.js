@@ -12,7 +12,7 @@ function HomePage() {
           </p>
           <Link
             href='/dashboard'
-            className='btn bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase'
+            className='btn bg-transparent border-black  hover:border-black hover:bg-black hover:bg-opacity-5 join-item uppercase active:text-white active:bg-black'
           >
             Lets get started <span className='text-lg'>&#128640;</span>
           </Link>

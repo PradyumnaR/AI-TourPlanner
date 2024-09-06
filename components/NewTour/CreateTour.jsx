@@ -27,7 +27,7 @@ function CreateTour({ onSubmit, tour }) {
           />
           <button
             type='submit'
-            className='btn join-item bg-transparent border-black hover:bg-transparent hover:border-black hover:bg-black hover:bg-opacity-5 uppercase'
+            className='btn join-item bg-transparent border-black hover:border-black hover:bg-black hover:bg-opacity-5 uppercase active:text-white active:bg-black'
           >
             submit
           </button>
